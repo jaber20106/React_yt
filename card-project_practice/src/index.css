@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background:black;
+  font-family: Arial, sans-serif;
+  display:flex;
+  /* justify-content:center; */
+  /* align-items:center; */
+  height:100vh;
+}
+
+.card{
+  width:260px;
+  margin: 20px;
+  background:#f3f3f3;
+  
+  border-radius:20px;
+  padding:20px;
+  position:relative;
+  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+.card-container{
+  display: flex;
+  gap: 1px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card-top{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+  color:#444;
+}
+
+.title{
+  font-size:28px;
+  margin:20px 0;
+  line-height:1.2;
+}
+
+.arrow{
+  position:absolute;
+  right:20px;
+  top:120px;
+  font-size:20px;
+}
+
+.dots{
+  text-align:center;
+  margin:20px 0;
+}
+
+.dots span{
+  height:6px;
+  width:6px;
+  background:#bbb;
+  display:inline-block;
+  border-radius:50%;
+  margin:0 3px;
+}
+
+.card-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#fff;
+  padding:10px;
+  border-radius:12px;
+}
+
+.company{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.company img{
+  width:24px;
+}
+
+.company p{
+  font-size:12px;
+  margin:0;
+}
+
+.view-btn{
+  background:black;
+  color:white;
+  border:none;
+  padding:6px 14px;
+  border-radius:20px;
+  cursor:pointer;
+}
